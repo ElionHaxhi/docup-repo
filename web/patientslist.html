@@ -1,0 +1,71 @@
+<div id="patientslistmain" class="app_mainwin">
+	<div class="app_sidebar">
+		<div class="logo">
+			<span class="glyphicon glyphicon-user logo_font"></span>
+		</div>
+	</div>
+	
+	<div class="app_detailswin">
+		<!-- buttons bar -->
+		<div id="patientslistbuttons" class="app_buttonswin">
+			<div class="container-fluid">
+				<form class="form-inline" role="form">
+					<input class="form-control" type="text" placeholder="{{'GENERAL.SEARCH' | translate}}" ng-model="searchQuery" id="guide_patients_search" > 
+					<a href="" class="btn btn-default" ng-click="searchQuery = null">
+						<span class="glyphicon glyphicon-remove-sign"></span>
+					</a>
+					<div class="pull-right">
+
+						<a href="" class="btn btn-default" ng-click="refreshPatientsList()">
+							<span class="glyphicon glyphicon-refresh" id="guide_patients_refresh"></span>
+						</a>
+						<a href="" class="btn btn-success" ng-click="openCreateNewPatient()" ng-hide="user.security.patient.create === false" id="guide_patients_addpatient">
+							<span class="glyphicon glyphicon-plus"></span> {{'PATIENT.NEWPATIENT' | translate}}
+						</a>
+					</div>			
+				</form>
+			</div>
+		</div>
+		
+		<!-- main view -->
+		<div id="patientslist" class="app_workwin">
+			<table class="table table-hover" id="guide_patients_list">
+				<tr ng-repeat="patient in patient.list | filter:searchQuery">
+				<td style="width: 80px; padding-left: 10px; padding-top: 10px;">
+						<img class="img-circle" ng-show="patient.sex != 'F'" ng-src="img/pranveraimages/patients/{{patient.pictureId.filename}}" alt="" style="height: 60px; border: 2px solid #000000;">
+				</td>
+				<td style="width: 40%;">
+						<a ng-href="#/patientdetail/{{patient.id}}">
+							<h3 style="margin: 0;">
+								{{patient.personalInfoId.name}}
+							</h3>
+							<h4>
+								{{patient.personalInfoId.surname}}
+                                <span ng-show="patient.date" class="text-muted">
+									({{patient.date | dateFromSqlToHtml:appformats.dateFormatMomentjs}})
+								</span>
+							</h4>
+						</a>
+				</td>
+				<td style="width: 40%;">
+						<h6 class="text-muted" style="margin-top: 6px; margin-bottom: 6px;">
+							{{patient.personalInfoId.cellphone}}
+						</h6>
+						<h6 class="text-muted" style="margin-top: 6px; margin-bottom: 6px;">
+							{{patient.personalInfoId.telephone}}
+						</h6>
+						<h6 class="text-muted" style="margin-top: 6px; margin-bottom: 6px;">
+							{{patient.personalInfoId.email}}
+						</h6>
+				</td>
+				<td style="width: 20%; text-align: right;">
+						<span class="label" ng-show="getPatientTypeObj(patient.pattype)" style="background-color: {{getPatientTypeObj(patient.pattype).color}}">
+							{{getPatientTypeObj(patient.pattype).text}}
+						</span>
+				</td>
+			</tr>
+			</table>
+		</div>
+	</div>
+</div>
+	

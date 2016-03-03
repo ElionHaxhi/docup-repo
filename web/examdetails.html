@@ -1,0 +1,105 @@
+<div id="examdetails_main" class="app_mainwin">
+
+    <!-- sidebar -->
+
+    <div class="app_sidebar">
+        <div class="logo">
+            <img ng-src="img/icon_clipboard_exam_white@2x.png" alt="" class="logo_img" />
+        </div>
+
+    </div>
+
+    <div class="app_detailswin">
+        <!-- buttons bar -->
+        <div id="examdetails_buttons" class="app_buttonswin">
+            <div class="container-fluid">
+                <form class="form-inline" role="form">
+                    <div class="pull-left" data-toggle="buttons-radio">
+                        <h4><label class="mylabelvisit" ng-click="setTab(1)">{{'EXAM.DATAEXAM' | translate}}</label></h4>
+                    </div>
+                    <h2 class="pull-left" style="margin: 1px; padding-left: 10px;">
+                        <span class="text-primary">{{patient.obj.lastname | cutString:12}}</span>
+                    </h2>
+                    <div class="pull-right" style="padding-right: 10px;">
+
+
+                        <button class="btn btn-primary" ng-click="enableUpdateExamDetails()" ng-hide="checkFormEnabled() || user.security.exam.update === false">
+                            <span class="glyphicon glyphicon-pencil"></span> {{'GENERAL.MODIFY' | translate}}
+                        </button>
+
+
+                        <button class="btn btn-default" ng-click="backExamUpdate()" ng-show="checkFormEnabled()">
+                            <span class="glyphicon glyphicon-remove-sign"></span> {{'GENERAL.NULLABLE' | translate}}
+                        </button>
+                        <button class="btn btn-success" ng-click="updateExamDetails()" ng-show="checkFormEnabled()">
+                            <span class="glyphicon glyphicon-ok"></span> {{'GENERAL.SAVE' | translate}}
+                        </button>
+                        <button class="btn btn-danger" ng-click="openDialogDeleteConfirm()" ng-show="checkFormEnabled() && !checkCreationEnabled() && user.security.exam.delete !== false">
+                            <span class="glyphicon glyphicon-trash"></span> {{'GENERAL.DELETE' | translate}}
+                        </button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- main view -->
+        <div id="examdetails_main" class="app_workwin">
+            <form name="editExamForm">
+
+                <div class="app_workwin_form" ng-class="{formwinedit: checkFormEnabled()}">
+                    <!-- exam data -->
+                    <div class="container-fluid formwin" ng-show="getTabStatus(1)">
+                        <div class="row" ng-hide="checkCreationEnabled() || checkFormEnabled()">
+                            <div class="col-sm-10 text-right">
+                                <span class="label label-default" ng-show="getExamTypeObj(exam.obj.examtype)" style="background-color: {{getExamTypeObj(exam.obj.examtype).color}}">{{getExamTypeObj(exam.obj.examtype).text}}</span>
+                                <span class="label label-default" ng-show="exam.obj.jsondata_type">{{flexschema.getFlexformDescrFromDbname('exam', exam.obj.jsondata_type)}}</span>
+                                <span class="label label-info">{{exam.obj.episodedescr}}</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div ng-model="exam.obj.lastmodDate" name="{{'exam_examdate'}}" flexlabel="'EXAM.FORM.EXAMLASTMODDATE' | translate"
+                                     flexdatetimeformatviz="{{appformats.dateFormat}}" flexdatetimeformatmom="{{appformats.dateFormatMomentjs}}"
+                                     flexdatetimeformatout="{{'YYYY-MM-DD HH:mm:ss'}}" flexincludetime="false"
+                                     flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="true" flexform-field-datetime></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input ng-model="exam.obj.descriptionList[0].content" name="'DL.ANAMNESI'" flexlabel="'DL.ANAMNESI' | translate"
+                                       flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="false" flexform-field-textarea />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input ng-model="exam.obj.descriptionList[1].content" name="'DL.ESAMEOBITETTIVO'" flexlabel="'DL.ESAMEOBITETTIVO' | translate"
+                                       flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="false" flexform-field-textarea />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input ng-model="exam.obj.descriptionList[2].content" name="'DL.TERAPIA'" flexlabel="'DL.TERAPIA' | translate"
+                                       flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="false" flexform-field-textarea />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input ng-model="exam.obj.descriptionList[3].content" name="'DL.DIAGNOSI'" flexlabel="'DL.DIAGNOSI' | translate"
+                                       flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="false" flexform-field-textarea />
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+</div>
+
+	

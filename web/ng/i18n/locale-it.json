@@ -1,0 +1,475 @@
+{
+	"GENERAL": {
+		"FORM": {
+			"FORMNOTVALID": "I dati inseriti non sono validi",
+			"FORMCHECKMANDATORY": "Controlla i campi segnati in rosso",
+			"FLEXFORM": "Scheda specialistica",
+			"FLEXFORMCHOOSE": "Scheda specialistica",
+			"FORMFIELDERROR": "Il campo contiente errori",
+			"FORMFIELDMANDATORY": "Il campo non può essere nullo",
+			"FORMFIELDFORMATNOTVALID": "Formato del campo non valido",
+			"FORMFIELDNOTVALID": "Campo non valido"
+		},
+		"ERR": {
+			"ERROR": "Errore",
+			"SERVERFAIL": "Non è possibile contattare il server",
+			"PRINTFAIL": "Non è possibile preparare la stampa"
+		},
+		"REFRESH": "Aggiorna",
+		"SEARCH": "Ricerca",
+		"MODIFY": "Modifica",
+		"NULLABLE": "Annulla",
+		"SAVE": "Salva",
+		"DELETE": "Elimina",
+		"DESCR": "Descrizione",
+		"NOTE": "Note",
+		"CLOSE": "Chiudi",
+		"NOONE": "Tutti",
+		"ROWS": "Righe",
+		"FILTER": "Filtra"
+	},
+  "DL":{
+  "ANAMNESI": "Anamnesi",
+  "DIAGNOSI": "Diagnosi",
+  "ESAMEOBITETTIVO": "Esame obiettivo",
+  "TERAPIA": "Terapia"
+},
+	"NAVBAR": {
+		"DASHBOARD": "Attività",
+		"PATIENTS": "Pazienti",
+		"PATIENT": "Paziente",
+		"GRAPHS": "Grafici",
+		"EXAMS": "Visite",
+		"EXAM": "Visita",
+		"MEASURES": "Valori",
+		"MEASURE": "Valore",
+		"AGENDA": "Agenda",
+		"BOOKING": "Prenotazioni",
+		"ACCOUNTING": "Contabilità",
+		"GUIDE": "Guida",
+		"CONTEXTGUIDE": "Guida contestuale",
+		"COMPLETEGUIDE": "Manuale completo",
+		"OPTIONS": "Opzioni",
+		"OPTIONSFLEXFORM": "Configura schede specialistiche",
+		"OPTIONSAPPSETTINGS": "Altre impostazioni",
+		"OPTIONSCULTURE": "Lingua e cultura",
+		"OPTIONSCALENDARS": "Impostazioni calendari",
+		"EXIT": "My iDoctorWeb",
+		"LOGOUT": "Esci"
+	},
+	"WELCOME": {
+		"HELLO": "Salve",
+		"WORKLIST": "Attività",
+		"STARTNOW": "Inizia subito",
+		"YOURLICENSE": "Licenza servizi online",
+		"CURRENTVERSION": "Versione applicazione",
+		"IDOCTFREE_DESCR": "Scopri cosa puoi fare con iDoctorPad Web Free",
+		"IDOCTFREE_FEATURES1": "Mettere al sicuro tutti i dati medici raccolti utilizzando le nostre App per un massimo di 8 pazienti o membri della tua famiglia",
+		"IDOCTFREE_FEATURES2": "Visualizzare i dati di contatto dei pazienti, la loro cartella clinica e l'agenda appuntamenti da qualsiasi browser ovunque ti trovi",
+		"IDOCTFREE_FEATURES3": "Condividere le tue schede e note cliniche con chiunque tu voglia, ad esempio per chiedere un secondo parere",
+		"IDOCTFREE_FEATURES4": "Fare il backup completo del tuo database e poter richiedere in qualsiasi momento al nostro team di recuperare l'ultima situazione",
+		"IDOCTFREE_FEATURES5": "Sincronizzare i tuoi dati medici tra più device, ad esempio tra il tuo table e il tuo smartphone",
+		"IDOCTSTD_DESCR": "Scopri cosa puoi fare con iDoctorPad Web Standard",
+		"IDOCTSTD_FEATURES1": "Tutto quanto offerto da iDoctorPad Web Free",
+		"IDOCTSTD_FEATURES2": "Gestire tutti i pazienti del tuo ambulatorio medico, nessuno escluso",
+		"IDOCTSTD_FEATURES3": "Per ogni paziente registrare schede cliniche specialistiche in una cartella clinica multidisciplinare",
+		"IDOCTSTD_FEATURES4": "Gestire annotazioni e prestazioni mediche, con indicazione della codifica e del prezzo assegnato",
+		"IDOCTSTD_FEATURES5": "Prendere nuovi appuntamenti direttamente da browser e condividerli immediatamente con tutte le tue App iDoctorPad",
+		"IDOCTSTD_FEATURES6": "Stampare documenti e referti medici",
+		"IDOCTPRO_DESCR": "Scopri cosa puoi fare con iDoctorPad Web Professional",
+		"IDOCTPRO_FEATURES1": "Tutto quanto offerto dalle altre versioni",
+		"IDOCTPRO_FEATURES2": "Inviare ai tuoi pazienti un reminder degli appuntamenti",
+		"IDOCTPRO_FEATURES3": "Richiedere schede specialistiche personalizzate apposta per te",
+		"IDOCTPRO_FEATURES4": "Completa personalizzazione delle stampe e dei documenti utilizzati",
+		"IDOCTPRO_FEATURES5": "Redazione preventivi di cura ed emissione fatture delle prestazioni sanitarie",
+		"IDOCTTEA_DESCR": "Scopri cosa puoi fare con iDoctorPad Web Team",
+		"IDOCTTEA_FEATURES1": "Tutto quanto offerto dalla versione Professional",
+		"IDOCTTEA_FEATURES2": "Gestire tutti gli operatori, le risorse e i pazienti del tuo poliambulatorio medico",
+		"IDOCTTEA_FEATURES3": "Supporto multi-medico e multi-studio in Agenda e Worklist",
+		"IDOCTTEA_FEATURES4": "2 utenti aggiuntivi (Licenza Assistant) già inclusi per collaborare con segretaria e/o operatore sanitario"
+	},
+	"USER": {
+		"MSG": {
+			
+		},
+		"ERR": {
+			"GETNEWSFAIL": "Errore nel caricamento della lista news",
+			"USERPARAMCHANGEFAIL": "Errore nella modifica dei parametri di configurazione",
+			"USERPARAMLOADFAIL": "Errore nel caricamento dei parametri di configurazione"
+		}
+	},
+	"PATIENT": {
+		"NEWPATIENT": "Nuovo paziente",
+		"DATAREPORT": "Riepilogo",
+		"DATAPATIENT": "Contatto",
+		"DATAFLEX": "Storia clinica",
+		"DATAADD": "Aggiuntivi",
+		"EPISODESLIST": "Episodi medici",
+		"AGE": "Età",
+		"LASTEXAM": "Ultima scheda visita",
+		"TYPEFILTER": "Filtra tipo paziente",
+		"TYPE": "Tipo paziente",
+		"FORM": {
+			"SURNAME": "Cognome",
+			"NAME": "Nome",
+			"BORNDATE": "Data di nascita",
+			"SEX": "Sesso",
+			"PERSONALID": "Codice Fiscale",
+			"ADDRESS": "Indirizzo",
+			"CITY": "Città",
+			"ZIPCODE": "CAP",
+			"STATE": "Provincia",
+			"NATION": "Nazione",
+			"MEDCARDID": "Numero tessera sanitaria",
+			"MEDCARDDATE": "Scadenza tessera sanitaria",
+			"EMAIL": "Email",
+			"PHONE": "Telefono",
+			"MOBILE": "Cellulare",
+			"MEDHISTORY": "Storia medica",
+			"NOTE": "Note",
+			"MALE": "Maschio",
+			"FEMALE": "Femmina"
+		},
+		"MSG": {
+			"NOPATIENTSEL": "Seleziona una persona dalla lista pazienti per accedere ai suoi dettagli",
+			"DELCONFIRM_TITLE": "Conferma cancellazione paziente",
+			"DELCONFIRM_QUEST": "Confermi la cancellazione del paziente e di tutti i suoi dati ?"
+		},
+		"ERR": {
+			"GETFAIL": "Errore nel caricamento dei dati del paziente",
+			"GETLISTFAIL": "Errore nel caricamento della lista pazienti"
+		}
+	},
+	"EXAM": {
+		"NEW": "Nuova scheda clinica",
+		"ADDVISIT": "Scheda clinica",
+		"DATAEXAM": "Scheda clinica",
+		"DATAFLEX": "Dati specialistici",
+		"TIMELINE": "Timeline clinica",
+		"TYPE": "Tipo scheda clinica",
+		"FORM": {
+			"EXAMDATE": "Data",
+            "EXAMLASTMODDATE": "Data ultima modifica della visita",
+
+            "PATHOLOGY": "Patologia",
+			"THERAPY": "Terapia",
+			"NOTE": "Note"
+		},
+		"EPISODE": {
+			"EPISODENAME": "Episodio medico",
+			"DESCR": "Nome episodio",
+			"NOTE": "Descrizione episodio",
+			"NEW": "Crea episodio medico",
+			"UPDATE": "Modifica episodio",
+			"REMOVE": "Togli da episodio medico",
+			"ADD": "Aggiungi a episodio medico",
+			"ASSIGNEXAM": "Assegna la scheda clinica all'episodio medico"
+		},
+		"MSG": {
+			"NOPATIENTSEL": "Seleziona una persona dalla lista pazienti per accedere alle visite registrate nella sua cartella clinica",
+			"NOEXAMSEL": "Seleziona una scheda dalla cartella clinica di un paziente per accedere ai dettagli",
+			"DELEXAMCONFIRM_TITLE": "Conferma cancellazione scheda di dettaglio",
+			"DELEXAMCONFIRM_QUEST": "Confermi la cancellazione della scheda clinica e di tutti i suoi dati?",
+			"DELEPISODECONFIRM_TITLE": "Conferma cancellazione episodio medico",
+			"DELEPISODECONFIRM_QUEST": "Confermi la cancellazione dell'episodio medico? Le schede cliniche relative non saranno cancellate.",
+			"REMOVEEXAMFROMEPISODECONFIRM_TITLE": "Conferma rimozione da episodio medico",
+			"REMOVEEXAMFROMEPISODECONFIRM_QUEST": "Confermi di voler rimuovere la scheda clinica dall'episodio medico? La scheda non sarà cancellata."
+		},
+		"ERR": {
+			"GETEXAMSFAIL": "Non è stato possibile aggiornare la lista schede cliniche",
+			"GETEXAMFAIL": "Non è stato possibile ottenere i dettagli della scheda clinica"
+		}
+	},
+	"MEASURE":{
+		"NEW": "Registra nuova misurazione",
+		"LIST": "Lista",
+		"LISTCLOSE": "Chiudi",
+		"MSG": {
+			"NOPATIENTSEL": "Seleziona una persona dalla lista pazienti per accedere alla lista delle sue misurazioni",
+			"NOMEASURESEL": "Seleziona una misurazione per accedere ai dettagli",
+			"DELMEASURECONFIRM_TITLE": "Conferma cancellazione valore",
+			"DELMEASURECONFIRM_QUEST": "Confermi la cancellazione del valore e di tutti i suoi dati?"
+		},
+		"FORM": {
+			"MEASUREDATE": "Data"
+		},
+		"ERR": {
+			"GETMEASURESFAIL": "Non è stato possibile aggiornare la lista delle misurazioni",
+			"GETMEASUREFAIL": "Non è stato possibile ottenere i dettagli della misurazione"
+		}
+	},
+	"FLEXFORM": {
+		"ADDROW": "Aggiungi una riga",
+		"ERR": {
+			"PREPAREFAIL": "Imposssible preparare la scheda specialistica",
+			"GETFLEXLISTFAIL": "Imposibile caricare la lista delle schede specialistiche dal server",
+			"GETFLEXFILEFAIL": "Imposibile caricare la schede specialistica dal server",
+			"UPDFLEXFAIL": "Imposibile aggiornare la scelta delle schede specialistiche"
+		}
+	},
+	"GRAPH": {
+		"GRAPHSBUTTSHORT": "Grafici",
+		"LOADGRAPH": "Carica grafico",
+		"SAVEGRAPH": "Salva grafico",
+		"SAVEGRAPHNAME": "Nome grafico da salvare"
+	},
+	"ANNOTATION": {
+		"ANNOTATIONS": "Annotationi",
+		"ANNOTATIONSBUTTSHORT": "Note",
+		"NEW": "Annotazione",
+		"BODY": "Testo annotazione",
+		"TYPE": "Tipo annotazione",
+		"ERR": {
+			"GETANNLISTFAIL": "Non è stato possibile caricare la lista annotazioni",
+			"SAVEFAIL": "Non è stato possibile salvare l'annotatione",
+			"DELETEFAIL": "Non è stato possibile cancellare l'annotazione",
+			"EMPTY": "L'annotazione non può essere vuota"
+		},
+		"MSG": {
+			"DELCONFIRM_TITLE": "Conferma cancellazione annotazione",
+			"DELCONFIRM_QUEST": "Confermi la cancellazione dell'annotazione selezionata ?"
+		}
+	},
+	"SERVICE": {
+		"SERVICES": "Prestazioni",
+		"SERVICESBUTTSHORT": "Prestaz.",
+		"AVALIST": "Listino prestazioni erogabili",
+		"AVAFORMADD": "Aggiungi una prestazione al listino",
+		"AVAFORMUPD": "Modifica prestazione a listino",
+		"SELECTEDLIST": "Prestazioni assegnate",
+		"SELECTEDFORMUPD": "Modifica dettagli prestazione",
+		"NEW": "Prestazione",
+		"SEL": "Seleziona prestazione",
+		"PRICE": "Prezzo",
+		"ICD9": "ICD9",
+		"ICD10": "ICD10",
+		"INTCODE": "Codice interno",
+		"EXTCODE": "Codice esterno",
+		"CONFIRMPAY": "Pagato",
+		"PAID": "Pagato",
+		"ERR": {
+			"GETAVASERVLISTFAIL": "Non è stato possibile caricare la lista delle prestazioni erogabili",
+			"SAVEFAIL": "Non è stato possibile salvare la prestazione",
+			"DELETEFAIL": "Non è stato possibile cancellare prestazione",
+			"REMOVEFAIL": "Non è stato possibile rimuovere la prestazione dalla lista prestazioni erogate",
+			"LISTFAIL": "Non è stato possibile ottenere la lista delle prestazioni disponibili"
+		},
+		"MSG": {
+			"REMOVECONFIRM_TITLE": "Conferma rimozione prestazione",
+			"REMOVECONFIRM_QUEST": "Confermi di voler rimuovere la prestazione dal listino prestazioni?",
+			"REMOVECONFIRM_TITLEAVA": "Conferma rimozione prestazione",
+			"REMOVECONFIRM_QUESTAVA": "Confermi di voler rimuovere la prestazione dalla lista delle prestazioni assegnate?"
+		}
+	},
+	"ATTACH": {
+		"ATTACHSBUTTSHORT": "File",
+		"ADDFILE": "Aggiungi file",
+		"UPLOAD": "Carica",
+		"UPLOADALL": "Carica tutti",
+		"REMOVE": "Rimuovi",
+		"REMOVEALL": "Rimuovi",
+		"CANCEL": "Annulla",
+		"CANCELALL": "Annulla",
+		"ERR": {
+			"UPLOADFAIL": "Errore di caricamento file",
+			"GETFILESLISTFAIL": "Non è stato possibile caricare la lista file",
+			"DELFILEFAIL": "Non è stato possibile cancellare il file selezionato"
+		},
+		"MSG": {
+			"DELCONFIRM_TITLE": "Conferma cancellazione file",
+			"DELCONFIRM_QUEST": "Confermi la cancellazione del file selezionato ?"
+		}
+	},
+	"DOCSIGN": {
+		"DOCSIGNS": "Documenti firmabili",
+		"DOCSIGNSBUTTSHORT": "Firme",
+		"AVALIST": "Documenti firmabili disponibili",
+		"LIST": "Documenti preparati",
+		"NEW": "Firma",
+		"ERR": {
+			"GETLISTFAIL": "Non è stato possibile caricare la lista dei documenti firmati",
+			"SAVEFAIL": "Non è stato possibile salvare il documento firmato",
+			"DELETEFAIL": "Non è stato possibile cancellare il documento firmato"
+		},
+		"MSG": {
+			"DELCONFIRM_TITLE": "Conferma cancellazione documento firmato",
+			"DELCONFIRM_QUEST": "Confermi la cancellazione del documento firmato ?"
+		}
+	},
+	"AGENDA": {
+		"DOCTORS": "Medici",
+		"DOCTORSFILTER": "Medico",
+		"STUDIOS": "Studi",
+		"STUDIOSFILTER": "Studio",
+		"CLINICS": "Cliniche",
+		"CLINICSFILTER": "Clinica",
+		"CONTRACTS": "Contratti",
+		"CONTRACTSFILTER": "Contratto",
+		"TYPES": "Tipi",
+		"PATIENTS": "Pazien.",
+		"ALL": "Tutti",
+		"NOONE": "Nessuno",
+		"FORM": {
+			"NAME": "Nome",
+			"SURNAME": "Cognome",
+			"CLEANPATIENT": "Pulisci paziente",
+			"ADDAPPOINT": "Appuntamento",
+			"DATE": "Data",
+			"DURATION": "Durata",
+			"TYPE": "Tipo visita",
+			"DOCTOR": "Medico",
+			"STUDIO": "Studio",
+			"TITLE": "Titolo",
+			"NOTE": "Note"
+		},
+		"MONTHS": {
+			"JAN": "Gennaio",
+			"JANSHORT": "Gen",
+			"FEB": "Febbraio",
+			"FEBSHORT": "Feb",
+			"MAR": "Marzo",
+			"MARSHORT": "Mar",
+			"APR": "Aprile",
+			"APRSHORT": "Apr",
+			"MAY": "Maggio",
+			"MAYSHORT": "Mag",
+			"JUN": "Giugno",
+			"JUNSHORT": "Giu",
+			"JUL": "Luglio",
+			"JULSHORT": "Lug",
+			"AUG": "Agosto",
+			"AUGSHORT": "Ago",
+			"SEP": "Settembre",
+			"SEPSHORT": "Set",
+			"OCT": "Ottobre",
+			"OCTSHORT": "Ott",
+			"NOV": "Novembre",
+			"NOVSHORT": "Nov",
+			"DEC": "Dicembre",
+			"DECSHORT": "Dic"			 
+		},
+		"WEEK": {
+			"MON": "Lunedì",
+			"MONSHORT": "Lun",
+			"TUE": "Martedì",
+			"TUESHORT": "Mar",
+			"WED": "Mercoledì",
+			"WEDSHORT": "Mer",
+			"THU": "Giovedì",
+			"THUSHORT": "Gio",
+			"FRI": "Venerdì",
+			"FRISHORT": "Ven",
+			"SAT": "Sabato",
+			"SATSHORT": "Sab",
+			"SUN": "Domenica",
+			"SUNSHORT": "Dom"
+		},
+		"TODAY": "Oggi",
+		"DAYNAME": "Giorno",
+		"WEEKNAME": "Settimana",
+		"MONTHNAME": "Mese",
+		"APPOINTDELCONFIRM_TITLE": "Conferma cancellazione appuntamento",
+		"APPOINTDELCONFIRM_QUEST": "Confermi la cancellazione dell'appuntamento ?",
+		"ERR": {
+			"PATIENTSLISTFAIL": "Non è stato possibile ottenere la lista dei pazienti",
+			"CREATEAPPOINTFAIL": "Non è stato possibile creare il nuovo appuntamento",
+			"DURATIONCHANGEFAIL": "Non è stato possibile modificare la durata dell'appuntamento",
+			"DELETEAPPOINTFAIL": "Non è stato possibile eliminare l'appuntamento",
+			"APPOINTCHANGEFAIL": "Non è stato possibile aggiornare l'appuntamento",
+			"AGENDAMONTHGETFAIL": "Non è stato possibile caricare gli appuntamenti del mese selezionato",
+			"GETWORKLISTFAIL": "Impossibile caricare la lista attività"
+		}
+	},
+	"BOOKING":{
+		"DOCTORS": "Medici",
+		"DOCTORSFILTER": "Medico",
+		"HOSPITALS": "Cliniche",
+		"HOSPITALSFILTER": "Clinica",
+		"CONTRACTS": "Contratti",
+		"CONTRACTSFILTER": "Contratto",
+		"TYPES": "Tipi",
+		"ALL": "Tutti",
+		"NOONE": "Nessuno",
+		"FORM": {
+			"ADDBOOKING": "Prenotazione",
+			"SELECTNOTVALID": "E' necessario scegliere una prestazione."
+		}
+	},
+	"ACCOUNTING": {
+		"NEWINVOICE": "Fattura",
+		"INVOICE": {
+			"FORM": {
+				"CUSTOMER": "Cliente",
+				"INVOICEDATE": "Data fattura",
+				"INVOICENUMBER": "Numero fattura",
+				"DESCRIPTION": "Descrizione",
+				"YEAR": "Competenza",
+				"INVOICETYPE": "Tipo",
+				"PAYMENTTYPE": "Pagamento",
+				"PRODUCT": "Prodotto",
+				"QUANTITY": "Quantità",
+				"PRICE": "Prezzo",
+				"VAT": "IVA",
+				"TOTAL": "Totale",
+				"TOTALVAT": "Tot. IVA",
+				"TOTALWITHVAT": "Totale"
+			},
+			"MSG": {
+				"DELINVOICECONFIRM_TITLE": "Conferma cancellazione fattura",
+				"DELINVOICECONFIRM_QUEST": "Confermi la cancellazione della fattura e di tutti i suoi dati ?"
+			}
+		}
+	},
+	"SETTINGS": {
+		"FLEXPRIMARY": "Schede specialistiche principali",
+		"FLEXPRIMARYPATIENT": "Scegli la scheda clinica per l'anamnesi/storia clinica del Paziente",
+		"FLEXPRIMARYEXAM": "Scegli la scheda clincia specialistica principale",
+		"FLEXPRIMARYMEASURE": "Scegli la misurazione valori principale",
+		"FLEXSECONDARY": "Schede specialistiche secondarie",
+		"CULTURE": {
+			"LANG": {
+				"TITLE": "Scelta lingua applicazione",
+				"LIST": {
+					"IT": "Italiano",
+					"EN": "Inglese"
+				}
+			},
+			"CURRENCY": {
+				"TITLE": "Impostazioni valute",
+				"SYMBOL": "Simbolo della valuta",
+				"DECIMALSEPARATOR": "Separatore decimali",
+				"DECIMALSIZE": "Numero decimali",
+				"THOUSANDSSEPARATOR": "Separatore migliaia"
+			},
+			"DATE": {
+				"TITLE": "Date e orari",
+				"DATEFORMAT": "Formato data",
+				"DDMMYYYY": "GG/MM/AAAA",
+				"MMDDYYYY": "MM/GG/AAAA"
+			}
+		},
+		"AGENDAPARAMS": "Parametri agenda",
+		"AGENDASTART": "Ora inizio agenda",
+		"AGENDAEND": "Ora fine agenda",
+		"APPOINTDURATION": "Durata predefinita visita",
+		"AGENDASLOTDURATION": "Durata predefinita slot agenda",
+		"AGENDAWEEKENDSHOW": "Mostrare weekend in agenda",
+		"AGENDAWEEKENDSHOW_NO": "Non visualizzare weekend",
+		"AGENDAWEEKENDSHOW_SAT": "Visualizza solo il sabato",
+		"AGENDAWEEKENDSHOW_ALL": "Visualizza sabato e domenica",
+		"GENERALPARAMS": "Parametri generali",
+		"GENERALLANG": "Lingua",
+		"GENERALLASTEXAM": "Carica sempre dati ultima visita",
+		"PRINTPARAMS": "Impostazioni di stampa",
+		"PRINTHEADER": "Intestazione di stampa",
+		"PRINTFOOTER": "Chiusura di stampa",
+		"CALENDARS": {
+			"GOOGLE": "Usa calendari Google",
+			"GOOGLEAUTH": "Autorizza accesso ai tuoi calendari Google",
+			"GOOGLEAUTHOK": "Acceso ai tuoi calendari Google corretto"
+		},
+		"ERR": {
+			"UPDSETTINGSFAIL": "Non è stato possibile aggiornare i parametri dell'applicazione"
+		}
+	}
+}

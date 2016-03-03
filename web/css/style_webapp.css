@@ -1,0 +1,423 @@
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar {
+	height: 40px;
+	margin: 0px;
+	min-height: 0px;
+	background-color: #2F558E;
+}
+
+.navbar-nav {
+	margin-top: 0px;
+}
+
+.navbar-nav .navbutton {
+	font-size: 14px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar-right li {
+	margin-top: 0px;
+}
+
+.navbar-selected {
+	background-color: #ff0000;
+}
+
+.colored {
+	color: #29A0B5;
+}
+
+/*
+ * WINDOWS LAYOUT
+ */
+
+.app_mainwin {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.app_detailswin {
+	position: absolute;
+	left: 50px;
+	bottom: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+.app_workwin {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 50px;
+	bottom: 0px;
+	overflow-y: auto;
+}
+
+.app_workwin_form {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	overflow-y: auto;
+}
+
+.app_buttonswin {
+	position: absolute;
+	left: 0px;
+	height: 50px;
+	right: 0px;
+	top: 0px;
+	background-color: #e2e2e2;
+}
+
+.app_buttonswin .container-fluid {
+	padding: 0px;
+}
+
+.app_buttonswin form {
+	margin: 9px;
+}
+
+.app_sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 50px;
+	bottom: 0;
+	background-color: #e3e3e3;
+}
+
+.app_sidebar .logo {
+	height: 50px;
+	background-color: #989898;
+}
+
+.app_sidebar .logo .logo_font {
+	padding: 11px;
+	font-size: 28px;
+	color: #eeeeee;
+}
+
+.app_sidebar .logo .logo_img {
+	height: 40px;
+	padding-top: 7px;
+	padding-left: 7px;
+}
+
+.app_sidebar .button_img {
+	padding: 11px;
+	font-size: 28px;
+	color: #000000;
+}
+
+.app_sidebar .button_img_img {
+	width: 50px;
+	padding: 5px;
+	padding-bottom: 0px;
+	font-size: 28px;
+	color: #444444;
+}
+
+.app_sidebar .button_selected {
+	background-color: #F3EA84;
+}
+
+.app_sidebar .logo i {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.app_sidebar .button_img_descr {
+	width: 100%;
+	text-align: center;
+	color: #000000;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.app_sidebar .badge {
+	position: absolute;
+	top: 2px;
+	left: 3px;
+	background-color: #E42D2D;
+}
+
+.app_bottomwin {
+	position: absolute;
+	left: 50px;
+	bottom: 0px;
+	right: 0px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1000;
+	background-color: #ffffff;
+}
+
+.app_bottomwin_buttons {
+	background-color: #BDD9E2;
+}
+
+.app_details_title {
+	background-color: #999999;
+	color: #ffffff;
+	height: 37px;
+	padding-top: 7px;
+}
+
+.app_table_selected {
+	background-color: #F3EA84;
+}
+
+/*
+ * STORY LIST
+ */
+
+.text-balloon {  
+	background: #e7e7e7;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 5px;
+	color: antiquewhite;
+	text-align: justify;
+	margin: 5px;
+	position: relative;
+	font-size: 16px;
+} 
+
+.text-balloon .arrow {  
+    border-color: transparent #e7e7e7 transparent transparent;  
+    border-style: solid;  
+    border-width: 10px;  
+    display: block;  
+    height: 0;  
+    left: -20px;  
+    position: absolute;  
+    top: 20px;  
+    width: 0;  
+}
+
+/*
+* LABEL
+*/
+
+
+.mylabel {
+    display: inline;
+    padding: 21px 62px 11px 59px;
+    background-color: darkgray;
+    margin-left: -9px;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0em;
+}
+
+.mylabelvisit {
+    display: inline;
+    padding: 21px 45px 11px 28px;
+    background-color: darkgray;
+    margin-left: -9px;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0em;
+}
+
+/*
+ * FORM
+ */
+.formwin {
+	padding-top: 20px;
+}
+
+.formwinedit {
+	background-color: #fafafa;
+}
+
+/*
+ * FLEXFORM
+ */
+
+.flexlabeltext {  
+    color: #8f8f8f;
+    margin-bottom: 5px;
+    /*font-size: 17px;
+    margin-top: 4px;*/
+}
+
+.classflexlabel {  
+    color: #8f8f8f;
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+.classflexfield {  
+    color: #000000;
+    font-weight: normal;
+}
+
+.classflextext {  
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.classflexinvalid {
+	border: 2px solid #A94442 !important;
+}
+
+/*
+ * UPLOAD BUTTON
+ */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 999px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+/*
+ * VARIE
+ */
+a, a:hover, a:focus, a:active, .btn, .btn:focus, .btn:active { outline: none; outline: 0; text-decoration: none; }
+body {font-family: 'Montserrat', sans-serif;}
+textarea{resize: vertical;}
+
+.flexlabeltext {font-size: 90%; color: #aaa; font-weight: normal;}
+.classflextext {border-bottom: 1px solid #ccc; padding: 0; margin: 0 0 10px 0; min-height: 34px;}
+.classflexfield {}
+
+.client_box{height: 158px;}
+
+.product_list {background-color: #F8F8F8; margin: 6px;}
+.product_list_write {background-color: #EEE; margin: 6px;}
+
+.input-group-addon {cursor: pointer;}
+
+.first-row {margin-top: 20px;}
+
+.widget{margin:10px;}
+.label {font-weight: 500;}
+
+.dropdown-menu > li > a > span {cursor: pointer; display:inline-block; width: 100%;}
+
+.app_buttonswin_lower {
+	position: absolute;
+	left: 0;
+	height: 30px;
+	right: 0;
+	top: 50px;
+	background-color: #FAFAFA;
+}
+
+.app_buttonswin_lower .container-fluid {
+	padding: 0;
+}
+
+.app_buttonswin_lower form {
+	margin: 9px;
+}
+
+.app_workwin_lower {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 80px;
+	bottom: 0;
+	overflow-y: auto;
+}
+
+.lowerbar_btn {margin-top: -10px;}
+
+.uploader_wrapper {width: 100%; min-height: 75px; padding: 5px; margin: 10px 0; color: #FFF; border: 3px dotted #3071a9; background: #428bca; font-size: 110%; text-align: center;}
+.uploader_table {width:100%;}
+.uploader_table td{font-size: 90%; border-top: 1px solid #3071a9; padding: 5px 10px;}
+.uploader_wrapper a {color: #FFF;}
+
+.mr10   {margin-right: 10px !important;}
+.mr5    {margin-right:  5px !important;}
+
+.ml10   {margin-left: 10px !important;}
+.ml5    {margin-left:  5px !important;}
+
+.mb10   {margin-bottom: 10px !important;}
+.mb5    {margin-bottom:  5px !important;}
+
+table.table tr:last-child       {border-bottom: 1px solid #DDD;}
+table.inner_table tr:last-child {border-bottom: none;}
+
+table.inner_table {width: 100%;}
+
+tab-heading {cursor: pointer;}
+
+.booking_doc {font-size: 90%;}
+.booking_clinic {font-size: 140%; line-height: 70%; padding: 10px 0 0 0; margin:0;}
+.booking_zone{font-size: 70%; line-height: 40%; padding:0; margin:0;}
+.booking_day {font-size: 150%; padding-top: 15px; font-weight: bold;}
+.slot_rows td {padding: 5px; border-top: 1px solid #DDD; background: #FAFAFA;}
+.slot_rows_last {border-bottom: 1px solid #DDD;}
+.first_tariffe td {padding-top:15px;}
+tr.first_booking td {border-top: 1px solid #FFF;}
+
+.angular-google-map-container { height: 200px; }
+
+.marker-labels {
+	background-color: white;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+	border: 1px solid #DDD;
+}
+
+.xsmall{
+	font-size: 70%;
+}
+
+.table_measures{padding: 0; margin: 0;}
+.table_measures thead > tr > td{vertical-align: bottom;}
+
+#measureslist h3 {padding: 0; margin: 0;}
+#measureslist h4 {padding: 0; margin: 0;}
+
+/* NB. togliendo class="dropdown-toggle" data-toggle="dropdown" dalla dropdown aggiungendo il codice di seguito otteniamo hover sulle dropdown e link cliccabile */
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;
+}
+
+.nosidebar{left:0}

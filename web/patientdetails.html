@@ -1,0 +1,107 @@
+<div id="patientdetails_main" class="app_mainwin">
+	
+	<!-- sidebar -->
+	<div class="app_sidebar">
+		<div class="logo">
+			<span class="glyphicon glyphicon-user logo_font"></span>
+		</div>
+	</div>
+	
+	<div class="app_detailswin">
+		<!-- buttons bar -->
+		<div id="patientdetails_buttons" class="app_buttonswin">
+			<div class="container-fluid">
+				<form class="form-inline" role="form">
+
+                    <div class="pull-left"  data-toggle="buttons" id="guide_patient_tabs">
+                         <h4><label class="mylabel {{checkTabIsActive(1)}}" ng-hide="setTab(1)">{{'PATIENT.DATAPATIENT' | translate}}</label></h4>
+                    </div>
+
+					<h2 class="pull-left" style="margin: 1px; padding-left: 10px;">
+						<span class="text-primary">{{patient.obj.lastname | cutString:12}}</span>
+					</h2>
+					<div class="pull-right" style="padding-right: 10px;">
+
+						<button class="btn btn-primary" ng-click="enableUpdatePatientDetails()" ng-hide="checkFormEnabled() || user.security.patient.update === false" id="guide_patient_update">
+							<span class="glyphicon glyphicon-pencil"></span> {{'GENERAL.MODIFY' | translate}}
+						</button>
+						<button class="btn btn-default" ng-click="backPatientUpdate()" ng-show="checkFormEnabled()" id="guide_patient_back">
+							<span class="glyphicon glyphicon-remove-sign"></span> {{'GENERAL.NULLABLE' | translate}}
+						</button>
+						<button class="btn btn-success" ng-click="updatePatientDetails()" ng-show="checkFormEnabled()" id="guide_patient_save">
+							<span class="glyphicon glyphicon-ok"></span> {{'GENERAL.SAVE' | translate}}
+						</button>
+						<button class="btn btn-danger" ng-click="openDialogDeleteConfirm()" ng-show="checkFormEnabled() && !checkCreationEnabled() && user.security.patient.delete !== false" id="guide_patient_delete">
+							<span class="glyphicon glyphicon-trash"></span> {{'GENERAL.DELETE' | translate}}
+						</button>
+						<a class="btn btn-success" ng-href="#/examcreate/{{patient.obj.id}}" ng-hide="checkFormEnabled() || user.security.agenda.create === false" id="guide_patient_addexam">
+							<span class="glyphicon glyphicon-plus"></span> {{'EXAM.ADDVISIT' | translate}}
+						</a>
+
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!-- main view -->
+		<div id="patientdetails_main" class="app_workwin">
+			<form name="editPatientForm">
+
+
+
+				<div class="app_workwin_form" ng-class="{formwinedit: checkFormEnabled()}">
+					<!-- patient data CONTATTO-->
+					<div class="container-fluid formwin" ng-show="getTabStatus(1)">
+						<div class="row">
+							<div class="col-sm-6">
+								<input ng-model="patient.obj.personalInfoId.surname" name="patient_lastname" flexlabel="'PATIENT.FORM.SURNAME' | translate"
+								flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="true" flexform-field-string />
+							</div>
+							<div class="col-sm-6">
+								<input ng-model="patient.obj.personalInfoId.name" name="patient_firstname" flexlabel="'PATIENT.FORM.NAME' | translate"
+								flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="true" flexform-field-string />
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-6">
+								<input ng-model="patient.obj.personalInfoId.email" name="patient_email" flexlabel="'PATIENT.FORM.EMAIL' | translate"
+								flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="false" flexform-field-string />
+							</div>
+							<div class="col-sm-3">
+								<input ng-model="patient.obj.personalInfoId.telephone" name="patient_phone" flexlabel="'PATIENT.FORM.PHONE' | translate"
+								flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="false" flexform-field-string />
+							</div>
+							<div class="col-sm-3">
+								<input ng-model="patient.obj.personalInfoId.cellphone" name="patient_mobile" flexlabel="'PATIENT.FORM.MOBILE' | translate"
+								flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="false" flexform-field-string />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-8">
+								<input ng-model="patient.obj.personalInfoId.address" name="patient_address" flexlabel="'PATIENT.FORM.ADDRESS' | translate"
+								flexdescr="false" flexformenabled="checkFormEnabled()" ng-required="false" flexform-field-string />
+							</div>
+						</div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2>
+                                    {{'EXAM.TIMELINE' | translate}}
+                                </h2>
+                                <div id="timeline" vis-timeline data="examstimeline.data" style="width: 100%; height: 300px; min-height: 300px"></div>
+                            </div>
+                        </div>
+
+					</div>
+
+
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+	</div>
+
+	
