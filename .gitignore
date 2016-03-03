@@ -1,0 +1,6 @@
+docup-repo.iml
+.idea/
+out/
+lib/
+docup-server/docup-server.iml
+docup-server/lib/
